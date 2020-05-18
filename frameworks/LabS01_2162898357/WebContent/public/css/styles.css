@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container-1 {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 75%;
+    grid-template-rows: 100%;
+    align-items: center;
+}
+
+.info {
+    padding-left: 16vw;
+    padding-right: 16vw;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.info h1 {
+    font-size: 7vh;
+    font-weight: 900;
+    color: white;
+}
+
+.info h2 {
+    font-size: 5vh;
+    font-weight: 900;
+    color: white;
+}
+
+.info p {
+    margin-top: 1.5vh;
+    font-size: 2.1vh;
+    color: white;
+}

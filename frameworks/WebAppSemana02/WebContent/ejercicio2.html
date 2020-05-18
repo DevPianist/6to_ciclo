@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio2</title>
+
+</head>
+
+<body>
+    <form action="formulario">
+        <label for="num01">Numero 01:</label><br>
+        <input type="text" id="num01" name="num01" value=""><br>
+        <label for="num02">Número 02:</label><br>
+        <input type="text" id="num02" name="num02" value=""><br><br>
+        <input type="button" value="Limpiar" onclick="btnLimpiar()">
+        <input type="button" value="Sumar" onclick="btnSumar()">
+        <input type="button" value="Restar" onclick="btnRestar()">
+        <input type="button" value="Multiplicar" onclick="btnMultiplicar()">
+        <input type="button" value="Dividir" onclick="btnDividir()">
+    </form>
+    <p></p>
+    <div id="divinfo">
+        El resultado es:
+        <div id="divresultado"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./ejercicio2.js"></script>
+</body>
+
+</html>
