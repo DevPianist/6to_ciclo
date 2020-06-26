@@ -1,0 +1,16 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.container-1 {
+	background-image: url("../images/bg2.jpg");
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	background-size: cover;
+	display: grid;
+	grid-template-rows: 100%;
+	align-items: center;
+}
